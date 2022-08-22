@@ -1,6 +1,6 @@
 {
 	"name": "Font Adjuster", 
-	"version": "0.0.2", 
+	"version": "0.0.4", 
 	"description": "Increase or decrease font size.", 
 	"manifest_version": 2, 
 	"icons": { 
@@ -12,7 +12,7 @@
 	
 	"browser_action": { 
 		"default_popup": "popup.html",
-		"browser_style": true
+		"browser_style": false
 	},
 	
 	"content_scripts": [ {
